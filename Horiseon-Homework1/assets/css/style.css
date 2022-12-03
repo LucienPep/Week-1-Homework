@@ -24,6 +24,8 @@ h1 .seo {
     color: #d9dcd6;
 }
 
+/*header bar and heading one for top of webpage*/
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,9 +48,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/*Navigation bar located in header bar*/
 
 .hero {
     height: 800px;
@@ -57,16 +57,6 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 main {
@@ -88,13 +78,29 @@ main {
     max-height: 200px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+p {
+    font-size: 16px;
+}
+
+/*main section holds the key information the website is supposed to show*/
 /*Compiled divisions Search Engine Optimization, Online Reputation Management and
  Social Media Marketing into one division as all elements utilise same parameters*/
+/*re-ordered main components to match better with HTML layout*/
 
  .benefits {
     margin-right: 20px;
@@ -136,3 +142,4 @@ footer {
 h4 {
     font-size: 20px;
 }
+/*Footer to hold creator name and copyright license*/
